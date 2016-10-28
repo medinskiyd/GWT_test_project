@@ -5,10 +5,10 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
            version="3.0">
 
-    <!-- Default page to serve -->
-    <welcome-file-list>
-        <welcome-file>StockWatcher.html</welcome-file>
-    </welcome-file-list>
+    <!--&lt;!&ndash; Default page to serve &ndash;&gt;-->
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>StockWatcher.html</welcome-file>-->
+    <!--</welcome-file-list>-->
 
     <!-- Servlets -->
     <servlet>

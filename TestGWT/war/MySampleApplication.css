@@ -6,6 +6,12 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+
 body {
     padding: 10px;
 }

@@ -33,4 +33,13 @@ public interface StockWatcherConstants extends Constants { //ConstantsWithLookup
 
     @DefaultStringValue("GWT application")
     String gwt();
+
+    @DefaultStringValue("CheckBox Widget Demonstration")
+    String checkbox();
+
+    @DefaultStringValue("RadioButton Widget Demonstration")
+    String radiobutton();
+
+    @DefaultStringValue("Tree Widget Demonstration")
+    String tree();
 }

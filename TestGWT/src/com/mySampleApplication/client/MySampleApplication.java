@@ -44,6 +44,8 @@ public class MySampleApplication implements EntryPoint {
     private StockWatcherConstants constants = GWT.create(StockWatcherConstants.class);
     private StockWatcherMessages messages = GWT.create(StockWatcherMessages.class);
 
+
+
     /**
      * This is the entry point method.
      */
@@ -69,7 +71,7 @@ public class MySampleApplication implements EntryPoint {
         Window.setTitle(constants.stockWatcher());
         RootPanel.get("appTitle").add(new Label(constants.stockWatcher()));
         RootPanel.get("valid").add(new Label(constants.valid()));
-        RootPanel.get("com/mySampleApplication/test").add(new Label(constants.test()));
+        RootPanel.get("test").add(new Label(constants.test()));
         RootPanel.get("gwt").add(new Label(constants.gwt()));
 
         addStockButton = new Button(constants.add());
@@ -144,8 +146,6 @@ public class MySampleApplication implements EntryPoint {
                 }
             }
         });
-
-
     }
 
     private static class MyAsyncCallback implements AsyncCallback<String> {
@@ -202,7 +202,6 @@ public class MySampleApplication implements EntryPoint {
 
         // Get the stock price.
         refreshWatchList();
-
     }
 
 
@@ -411,6 +410,5 @@ public class MySampleApplication implements EntryPoint {
         errorMsgLabel.setText("Error: " + error);
         errorMsgLabel.setVisible(true);
     }
-
 
 }
